@@ -1,28 +1,15 @@
-#
-#
-#
-#lets play with git status for a bit
-git status
-#
-#modify something and then do:
-git add instructions.txt
-#
-git status
-#
-git commit instructions.txt -m "commiting a modification"
-#
-#now the change is commited inside the LOCAL respository
-#
-lets create a development branch
-git branch development
-#
 
 
+Hi, if you are reading this, it's all going well.
 
-=======
-Hi, if you are here, it's all going well.
-Replace your  $USER to get DesySusy in your github
-repository, and replace DesuSusy with your name to get your code, if you have any.
+go to lxplus:
+scram project CMSSW_5_3_11_patch3
+cd CMSSW_5_3_11_patch3/src
+cmsenv
+#
+#
+#Replace your  $USER to get DesySusy in your github
+#repository, and replace DesuSusy with your name to get your code, if you have any.
 #
 #
 #
@@ -33,6 +20,8 @@ cvs2git --blobfile=git-blob.dat --dumpfile=git-dump.dat \
         --use-external-blob-generator \
         --fallback-encoding "UTF8" \
         --username $USER
+
+#this will port the DesySusy repository to your github respository
 #
 #
 #
